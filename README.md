@@ -19,7 +19,7 @@ interpretable predictions.
     │── evaluation.py            # Evaluation metrics (F1, AUROC, AUPRC)
     │── local_training.py        # Local client training
     │── interpretability.py      # Saliency maps + attention analysis
-    │── mutation_predict.py      # 🔥 DNA mutation predictions (standalone)
+    │── mutation_predict.py      # DNA mutation predictions (standalone)
     │── requirements.txt         # Dependencies
     │── README.md                # This file
 
