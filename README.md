@@ -97,23 +97,16 @@ Outputs: - `saliency.csv`: feature attributions per node\
 
 ------------------------------------------------------------------------
 
-## Example Results
-
-Federated training example on **PPI** dataset:
-
-    Round 001 | F1=0.12 | AUROC=0.51 | AUPRC=0.31
-    Round 050 | F1=0.92 | AUROC=0.85 | AUPRC=0.87
-
 Mutation predictions are stored in `mutation_predictions.csv` and can be
-post-processed for case studies (e.g., TP53, BRCA1).
+post-processed for case studies.
 
 ------------------------------------------------------------------------
 
 ## Datasets
 
--   **PPI**: Protein--Protein Interaction dataset.\
--   **STRING**: Human protein interactions.\
--   **OGBN-Proteins**: Large-scale protein graph from OGB.\
+-   **PPI**: Protein--Protein Interaction dataset.
+-   **STRING**: Human protein interactions.
+-   **OGBN-Proteins**: Large-scale protein graph.
 -   **DNA Mutations**: Placeholder for mutation datasets (e.g., ClinVar,
     TCGA, COSMIC).
 
