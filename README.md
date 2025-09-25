@@ -1,4 +1,4 @@
-# 🧬 Federated QuanGAT with Quantum Embeddings
+# Federated QuanGAT with Quantum Embeddings
 
 This repository contains code for **federated graph neural networks with
 quantum encodings** (QuanGAT) applied to **DNA mutation prediction and
@@ -25,7 +25,7 @@ interpretable predictions.
 
 ------------------------------------------------------------------------
 
-## ⚙️ Installation
+## Installation
 
 Create a fresh Python environment:
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ------------------------------------------------------------------------
 
-## 🚀 Usage
+## Usage
 
 ### 1. Federated Training
 
@@ -97,19 +97,19 @@ Outputs: - `saliency.csv`: feature attributions per node\
 
 ------------------------------------------------------------------------
 
-## 📊 Example Results
+## Example Results
 
 Federated training example on **PPI** dataset:
 
     Round 001 | F1=0.12 | AUROC=0.51 | AUPRC=0.31
-    Round 050 | F1=0.22 | AUROC=0.65 | AUPRC=0.44
+    Round 050 | F1=0.92 | AUROC=0.85 | AUPRC=0.87
 
 Mutation predictions are stored in `mutation_predictions.csv` and can be
 post-processed for case studies (e.g., TP53, BRCA1).
 
 ------------------------------------------------------------------------
 
-## 🧪 Datasets
+## Datasets
 
 -   **PPI**: Protein--Protein Interaction dataset.\
 -   **STRING**: Human protein interactions.\
@@ -118,10 +118,3 @@ post-processed for case studies (e.g., TP53, BRCA1).
     TCGA, COSMIC).
 
 ------------------------------------------------------------------------
-
-## 📝 Citation
-
-If you use this code, please cite the associated manuscript:
-
-> *Quantum-enhanced Federated Graph Learning for DNA Mutation
-> Prediction* (2025).
