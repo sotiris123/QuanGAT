@@ -1,4 +1,4 @@
-# Federated QuanGAT with Quantum Embeddings
+# Federated Graph Attention Network with Quantum Embeddings
 
 This repository contains code for **federated graph neural networks with
 quantum encodings** (QuanGAT) applied to **DNA mutation prediction and
