@@ -76,9 +76,9 @@ This creates:
 
     mutation_predictions.csv
 
-with columns: - `node_id`: mutation/protein site ID\
-- `true_label`: ground-truth label\
-- `predicted_label`: model prediction\
+with columns: - `node_id`: mutation/protein site ID
+- `true_label`: ground-truth label
+- `predicted_label`: model prediction
 - `confidence`: prediction probability
 
 ------------------------------------------------------------------------
@@ -91,8 +91,8 @@ Run saliency + attention analysis:
 python interpretability.py
 ```
 
-Outputs: - `saliency.csv`: feature attributions per node\
-- `attention.csv`: edge attention weights\
+Outputs: - `saliency.csv`: feature attributions per node
+- `attention.csv`: edge attention weights
 - Attention heatmap visualization
 
 ------------------------------------------------------------------------
